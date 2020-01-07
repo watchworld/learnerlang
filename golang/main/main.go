@@ -1,9 +1,12 @@
 package main //main 主程序
-import "fmt"
-import "github.com/liushuichashe/golang/learn1"
+import (
+	"fmt"
+)
 
 func main() {
-
-	learn1.TestWeb()
-	fmt.Println("hello world.\n")
+	x := 1 + 1i
+	y := 1 + 1i
+	z := x * y
+	fmt.Println(z)
+	//fmt.Println("hello world.\n")
 }
