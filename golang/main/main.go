@@ -1,12 +1,7 @@
 package main //main 主程序
-import (
-	"fmt"
-)
+import "golang/concurrent"
 
 func main() {
-	x := 1 + 1i
-	y := 1 + 1i
-	z := x * y
-	fmt.Println(z)
+	concurrent.TestCacheChanel()
 	//fmt.Println("hello world.\n")
 }
